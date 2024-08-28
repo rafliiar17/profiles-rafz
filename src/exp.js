@@ -9,7 +9,7 @@ export function Exp() {
                 <img src={require(`${company.logo}`)} alt="company" />
             </span>
             <span className="text">
-            <p className="status">Status : {company.status}</p>
+            <p className="status"style={{ color: '#68c9dc' }}>Status : {company.status}</p>
                 <p className="school">{company.name}</p>
                 <p className="dep">{company.position_time}</p>
                 {company.description.map((desc, descIndex) => (

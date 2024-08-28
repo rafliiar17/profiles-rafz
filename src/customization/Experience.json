@@ -4,47 +4,47 @@
       "status": "Worked",
       "logo": "./img/v-tax.png",
       "name": "PT. MUTIARA BINTANG ABADI",
-      "position_time": "Technical Support, Feb 2022 - now",
+      "position_time": "[Technical Support/Helpdesk Support], since : [Feb 2022 - now]",
       "description": [
         {
-          "task": "- Handling customer complaints",
-          "details": "Managing over 30+ customer complaints daily with a 70% increase in customer satisfaction."
+          "task": "* Handling customer complaints",
+          "details": "- Managing over 15+ customer complaints daily with a 90% increase in customer satisfaction."
         },
         {
-          "task": "- Providing product/service information",
-          "details": "Resolving 80% of technical issues within 24 hours, with a 70% decrease in recurring complaints."
+          "task": "* Resolving technical issues",
+          "details": "- Resolving 90% of technical issues within 8 hours, with a 80% decrease in recurring complaints."
         },
         {
-          "task": "- Resolving technical issues",
-          "details": "Configured a tax fine system in Excel, reducing input errors by 95%."
+          "task": "* Collecting customer feedback",
+          "details": "- Collected Customer feedback to fix or improve the application and currently 80% of it is implemented well."
         },
         {
-          "task": "- Collecting customer feedback",
-          "details": "Installed more than 20 web-based applications with increased security through SSL implementation."
+          "task": "* Installing Application - base (LAMPP stack)",
+          "details": "- Installed over 20 web-based applications with enhanced security through SSL implementation and the use of a reverse proxy."
         },
         {
-          "task": "- Managing customer accounts",
-          "details": "Configured SPPT (Property Tax) printing systems, speeding up the process by 40%."
+          "task": "* Configuring SPPT (Notice of Tax Due)",
+          "details": "- Configured SPPT (Notice of Tax Due) printing on a Printonix v Pxxxx printer and speeding time of 40%"
         },
         {
-          "task": "- Providing support through various channels",
-          "details": "Installed over 20 Linux servers using VMWare, improving operational efficiency by 30%."
+          "task": "* Providing support through various channels",
+          "details": "- providing support with WhatsApp groups and email as tools for providing support."
         },
         {
-          "task": "- Building and maintaining customer relationships",
-          "details": "Migrated more than 10+ applications with a process completion time of less than 2x24 hours."
+          "task": "* Migrating Application server to server on production",
+          "details": "- Migrated more than 10+ applications with a process completion time of less than 2x24 hours."
         },
         {
-          "task": "- Following company procedures",
-          "details": "Created complex SQL queries (e.g., transaction realization) that increased transaction report efficiency by 98%."
+          "task": "* Created complex SQL queries to help the front-end view as per the client's requirements.",
+          "details": "- Developed and optimized complex SQL queries to assist the front-end team in generating data views tailored to the client's specific requirements, ensuring accuracy and efficiency in data retrieval and presentation."
         },
         {
-          "task": "- Reporting and documenting customer interactions",
-          "details": "Documented over 50 issues and fixes monthly, with a 95% success rate in testing results."
+          "task": "* Reporting, documenting and testing ",
+         "details": "- Documented an average of 49 issues and fixes per month, including bug fixes and enhancements, with a 95% success rate in testing results."
         },
         {
-          "task": "- Using issue ticketing applications (Redmine)",
-          "details": "Utilized Redmine to track and resolve more than 100 issue tickets each month."
+          "task": "* Helpdesk Support",
+          "details": "- Provided comprehensive helpdesk support by utilizing Redmine to effectively track, manage, and resolve an average of 160 issue tickets per month in 2024. Ensured timely resolution of technical issues and maintained high levels of customer satisfaction through consistent follow-up and clear communication."
         }
       ]
     },

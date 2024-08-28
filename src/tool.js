@@ -21,8 +21,15 @@ export function Code(props) {
 
 export function ASCII() {
     return (
-        <pre style={{ textAlign: "center", fontFamily: "monospace" }}>
-            <h2 style={{ display: "inline-block" }}>
+        <pre style={{ 
+            textAlign: "center", 
+            fontFamily: "monospace", 
+           
+        }}>
+            <h2 style={{ display: "inline-block", boxShadow: "0 4px 8px rgba(27, 202, 255, 0.6)", /* Shadow parameters */
+            padding: "5px",
+            margin: "5px",width: "950px", /* Optional: Add padding if needed */
+            borderRadius: "10px" /* Optional: Add border radius if desired */ }}>
                 <code>
 {`
 ██████╗  █████╗ ███████╗██╗     ██╗██╗ █████╗ ██████╗ ███████╗     ██████╗ ██████╗  ██████╗ ███████╗██╗██╗     ███████╗███████╗
@@ -31,6 +38,7 @@ export function ASCII() {
 ██╔══██╗██╔══██║██╔══╝  ██║     ██║██║██╔══██║██╔══██╗ ███╔╝ ╚════╝██╔═══╝ ██╔══██╗██║   ██║██╔══╝  ██║██║     ██╔══╝  ╚════██║
 ██║  ██║██║  ██║██║     ███████╗██║██║██║  ██║██║  ██║███████╗     ██║     ██║  ██║╚██████╔╝██║     ██║███████╗███████╗███████║
 ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚══════╝╚═╝╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝     ╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 `}
                 </code>                 
             </h2>
