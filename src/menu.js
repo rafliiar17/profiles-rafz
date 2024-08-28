@@ -28,7 +28,7 @@ function Menu() {
             </div>
             <div className="title">
                 <h1>
-                    <i className="fa fa-folder fa-lg folder-icon"></i>
+                    <i className="fa-solid fa-xl fa-user-secret folder-icon"></i>
                     <span className="site-name">root@rafliiarcxh.cloud</span>
                     <span className="current-time">
                         Date: {currentDateTime.date} Time: {currentDateTime.time}

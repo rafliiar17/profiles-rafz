@@ -5,7 +5,7 @@ import "./styles/main.css";
 export function Skl() {
     const result = SklRaw.skills.map((skill) => (
         <div className="edu" key={skill.name}>
-            <span id="logo-block">
+            <span class="status">
                 {/* Assuming you have a way to import or handle the logo dynamically */}
                 <img src={require(`${skill.logo}`)} alt="company" />
             </span>

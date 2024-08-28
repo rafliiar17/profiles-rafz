@@ -7,21 +7,38 @@ import Eduraw from './customization/Education.json'
 
 export function Read_Intro() {
     return (
-        <span class="text blcok-long">
+        <span className="text block-long">
             {Introraw.intro}
             <p>
-                <a target="_blank" href={Introraw.linkedin} rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
-                <a target="_blank" href={Introraw.glints} rel="noreferrer"><i class="fa-solid fa-briefcase"></i></a>
-                <a target="_blank" href={Introraw.github} rel="noreferrer"><i class="fa-brands fa-github"></i></a>
-                <a target="_blank" href={Introraw.upwork} rel="noreferrer"><i class="fa-brands fa-upwork"></i></a>
-                <a target="_blank" href={Introraw.instagram} rel="noreferrer"><i class="fa-brands fa-instagram"></i></a>
-                <a target="_blank" href={Introraw.x} rel="noreferrer"><i class="fa-brands fa-twitter"></i></a>
-                <a target="_blank" href={Introraw.cv} rel="noreferrer"><i class="fa-solid fa-file-signature"></i></a>
-                <a target="_blank" href={Introraw.whatsapp} rel="noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
+                <a className="icon-link" target="_blank" href={Introraw.linkedin} rel="noreferrer">
+                    <i className="fa-brands fa-linkedin"></i>
+                </a>
+                <a className="icon-link" target="_blank" href={Introraw.glints} rel="noreferrer">
+                    <i className="fa-solid fa-briefcase"></i>
+                </a>
+                <a className="icon-link" target="_blank" href={Introraw.github} rel="noreferrer">
+                    <i className="fa-brands fa-github"></i>
+                </a>
+                <a className="icon-link" target="_blank" href={Introraw.upwork} rel="noreferrer">
+                    <i className="fa-brands fa-upwork"></i>
+                </a>
+                <a className="icon-link" target="_blank" href={Introraw.instagram} rel="noreferrer">
+                    <i className="fa-brands fa-instagram"></i>
+                </a>
+                <a className="icon-link" target="_blank" href={Introraw.x} rel="noreferrer">
+                    <i className="fa-brands fa-twitter"></i>
+                </a>
+                <a className="icon-link" target="_blank" href={Introraw.cv} rel="noreferrer">
+                    <i className="fa-solid fa-file-signature"></i>
+                </a>
+                <a className="icon-link" target="_blank" href={Introraw.whatsapp} rel="noreferrer">
+                    <i className="fa-brands fa-whatsapp"></i>
+                </a>
             </p>
         </span>
     );
 }
+
 
 export function Intro() {
     return (
@@ -39,7 +56,7 @@ export function Edu() {
     Eduraw.schools.map((school) => {
         result.push(
             <div class="edu">
-                <span id="logo-block">
+                <span class="status">
                 <img src={require(`${school.logo}`)}  alt={"school"} />
                 </span>
                 <span class="text">
