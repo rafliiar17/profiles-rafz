@@ -14,25 +14,25 @@ export function Read_Intro() {
                     <i className="fa-brands fa-linkedin"></i>
                 </a>
                 <a className="icon-link" target="_blank" href={Introraw.glints} rel="noreferrer">
-                    <i className="fa-solid fa-briefcase"></i>
+                    <i className="fa-solid fa-briefcase" style={{ color: '#40e7ff' }}></i>
                 </a>
                 <a className="icon-link" target="_blank" href={Introraw.github} rel="noreferrer">
                     <i className="fa-brands fa-github"></i>
                 </a>
                 <a className="icon-link" target="_blank" href={Introraw.upwork} rel="noreferrer">
-                    <i className="fa-brands fa-upwork"></i>
+                    <i className="fa-brands fa-upwork" style={{ color: '#0fff57' }}></i>
                 </a>
                 <a className="icon-link" target="_blank" href={Introraw.instagram} rel="noreferrer">
-                    <i className="fa-brands fa-instagram"></i>
+                    <i className="fa-brands fa-instagram" style={{ color: '#C13584' }}></i>
                 </a>
                 <a className="icon-link" target="_blank" href={Introraw.x} rel="noreferrer">
-                    <i className="fa-brands fa-twitter"></i>
+                    <i className="fa-brands fa-twitter" style={{ color: '#1DA1F2' }}></i>
                 </a>
                 <a className="icon-link" target="_blank" href={Introraw.cv} rel="noreferrer">
-                    <i className="fa-solid fa-file-signature"></i>
+                    <i className="fa-solid fa-file-signature" style={{ color: '#f80000' }}></i>
                 </a>
                 <a className="icon-link" target="_blank" href={Introraw.whatsapp} rel="noreferrer">
-                    <i className="fa-brands fa-whatsapp"></i>
+                    <i className="fa-brands fa-whatsapp" style={{ color: '#25D366' }}></i>
                 </a>
             </p>
         </span>

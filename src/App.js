@@ -2,16 +2,13 @@ import React from "react";
 import { Intro, Edu } from "./intro";
 import Pub from "./pub";
 import Exp from "./exp";
-// import Awd from "./award";
 import Pro from "./pro";
 import Skl from "./skills";
 import { ASCII } from "./tool";
 import { Path, Code, Contact } from "./tool";
 import "./styles/main.css";
 
-const paths = ['~\\Home', '~\\Project', '~\\Certificate', '~\\Experience', '~\\Skills', '~\\Project'
-// ,'~\\Award'
-];
+const paths = ['~\\Home', '~\\Project', '~\\Certificate', '~\\Experience', '~\\Skills', '~\\Project'];
 
 function IntroContent({ index }) {
     return (
@@ -85,20 +82,6 @@ function SklContent({ index }) {
         </div>
     );
 }
-
-// function AwdContent({ index }) {
-//     return (
-//         <div id='app'> 
-//             <ASCII />
-//             <Path path={paths[index-1]}/>
-//             <Code command='Honors'/>
-//             <Awd />
-//             <Path path={paths[index-1]}/>
-//             <Code command='Contact Information'/>
-//             <Contact />
-//         </div>
-//     );
-// }
 
 function App(props) {
     // eslint-disable-next-line eqeqeq

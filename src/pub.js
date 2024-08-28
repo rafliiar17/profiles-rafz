@@ -17,17 +17,6 @@ export function Pub() {
             </span></li>
         );
     });
-    // const conference = [];
-    // Pubraw.conference.map((paper) => {
-    //     conference.push(
-    //         <li><span>
-    //             <b>{paper.title}</b><br/>
-    //             {paper.author} <br/>
-    //             {paper.organization}  <br/>
-    //             <a href={paper.link} target="_blank"  rel="noreferrer">[Paper]</a>
-    //         </span></li>
-    //     );
-    // });
     return (
         
         <div class="pub-list">

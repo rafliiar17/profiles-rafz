@@ -3,8 +3,8 @@ import Contactraw from "./customization/Contact.json";
 export function Path(props) {
     return (
 		<p class="path"> 
-			<span>&nbsp;<i class="fa-brands fa-apple">&nbsp;&nbsp;</i></span>
-			<span>&nbsp;&nbsp;<i class="fa fa-folder-open">&nbsp;</i>{props.path}&nbsp;&nbsp;</span>
+			<span>&nbsp;<i class="fa-solid fa-terminal" style={{ color: '#000000' }}>&nbsp;&nbsp;</i></span>
+			<span>&nbsp;&nbsp;<i class="fa fa-folder-tree" style={{ color: '#FFD43B' }}>&nbsp;</i>{props.path}&nbsp;&nbsp;</span>
 		</p>
     );
 }
