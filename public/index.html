@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://localhost:8097"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-jkihXtPklFJy8q3rnoEMBstczhBwFwO48lEQ7EDKlA5JX7xu5Q0NVg7lLeK/cHhV7hly0iygDRNyo6N88U6B9g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="styles/fa-all.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles/main.css">
+        <title>Rafliiarz</title>
+        <!-- Put your name here -->
+        <link rel="shortcut icon" type="image/jpg" href="favicon.ico"/>
+        <script src="https://kit.fontawesome.com/d82d8931bc.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+      </head>
+<body class="root" id="root">
+  <script src="/bundle.js"></script>
+  <!-- Chatra {literal} -->
+<!-- <script>
+  (function(d, w, c) {
+      w.ChatraID = 'FGW8EWFoQgWenNYGh';
+      var s = d.createElement('script');
+      w[c] = w[c] || function() {
+          (w[c].q = w[c].q || []).push(arguments);
+      };
+      s.async = true;
+      s.src = 'https://call.chatra.io/chatra.js';
+      if (d.head) d.head.appendChild(s);
+  })(document, window, 'Chatra');
+</script>
+/Chatra {/literal} -->\
+
+
+<!-- Brevo Conversations {literal} -->
+<script>
+  (function(d, w, c) {
+      w.BrevoConversationsID = '66cc4b10ebd6292e600f65f9';
+      w[c] = w[c] || function() {
+          (w[c].q = w[c].q || []).push(arguments);
+      };
+      var s = d.createElement('script');
+      s.async = true;
+      s.src = 'https://conversations-widget.brevo.com/brevo-conversations.js';
+      if (d.head) d.head.appendChild(s);
+  })(document, window, 'BrevoConversations');
+</script>
+<!-- /Brevo Conversations {/literal} -->
+
+<script type="text/javascript">
+  (function() {
+      window.sib = {
+          equeue: [],
+          client_key: "v2hjmlasgxj65171ijkvdpqu"
+      };
+      /* OPTIONAL: email for identify request*/
+      // window.sib.email_id = 'example@domain.com';
+      window.sendinblue = {};
+      for (var j = ['track', 'identify', 'trackLink', 'page'], i = 0; i < j.length; i++) {
+      (function(k) {
+          window.sendinblue[k] = function() {
+              var arg = Array.prototype.slice.call(arguments);
+              (window.sib[k] || function() {
+                      var t = {};
+                      t[k] = arg;
+                      window.sib.equeue.push(t);
+                  })(arg[0], arg[1], arg[2]);
+              };
+          })(j[i]);
+      }
+      var n = document.createElement("script"),
+          i = document.getElementsByTagName("script")[0];
+          n.type = "text/javascript", n.id = "sendinblue-js",
+          n.async = !0, n.src = "https://sibautomation.com/sa.js?key="+ window.sib.client_key,
+          i.parentNode.insertBefore(n, i), window.sendinblue.page();
+  })();
+  </script>
+</body>
+</html>

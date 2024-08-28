@@ -1,0 +1,76 @@
+{
+  "companies": [
+    {
+      "status": "Worked",
+      "logo": "./img/v-tax.png",
+      "name": "PT. MUTIARA BINTANG ABADI",
+      "position_time": "Technical Support, Feb 2022 - now",
+      "description": [
+        {
+          "task": "- Handling customer complaints",
+          "details": "Managing over 30+ customer complaints daily with a 70% increase in customer satisfaction."
+        },
+        {
+          "task": "- Providing product/service information",
+          "details": "Resolving 80% of technical issues within 24 hours, with a 70% decrease in recurring complaints."
+        },
+        {
+          "task": "- Resolving technical issues",
+          "details": "Configured a tax fine system in Excel, reducing input errors by 95%."
+        },
+        {
+          "task": "- Collecting customer feedback",
+          "details": "Installed more than 20 web-based applications with increased security through SSL implementation."
+        },
+        {
+          "task": "- Managing customer accounts",
+          "details": "Configured SPPT (Property Tax) printing systems, speeding up the process by 40%."
+        },
+        {
+          "task": "- Providing support through various channels",
+          "details": "Installed over 20 Linux servers using VMWare, improving operational efficiency by 30%."
+        },
+        {
+          "task": "- Building and maintaining customer relationships",
+          "details": "Migrated more than 10+ applications with a process completion time of less than 2x24 hours."
+        },
+        {
+          "task": "- Following company procedures",
+          "details": "Created complex SQL queries (e.g., transaction realization) that increased transaction report efficiency by 98%."
+        },
+        {
+          "task": "- Reporting and documenting customer interactions",
+          "details": "Documented over 50 issues and fixes monthly, with a 95% success rate in testing results."
+        },
+        {
+          "task": "- Using issue ticketing applications (Redmine)",
+          "details": "Utilized Redmine to track and resolve more than 100 issue tickets each month."
+        }
+      ]
+    },
+    {
+      "status": "Internship",
+      "logo": "./img/ptun.png",
+      "name": "THE STATE ADMINISTRATIVE COURT",
+      "position_time": "File Officer Intern, Jun. 2019 - Sept. 2019",
+      "description": [
+        {
+          "task": "- File Officer",
+          "details": "search for needed files, organize files and clean up file space"
+        }
+      ]
+    },
+    {
+      "status": "Internship",
+      "logo": "./img/ptpos.png",
+      "name": "PT. POS INDONESIA REG V BANDUNG",
+      "position_time": "Intern, Jun. 2018 - Sept. 2018",
+      "description": [
+        {
+          "task": "- Helper warehouse staff",
+          "details": "packing goods to be sent to other post offices."
+        }
+      ]
+    }
+  ]
+}
