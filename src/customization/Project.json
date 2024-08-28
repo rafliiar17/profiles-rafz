@@ -18,7 +18,7 @@
             "project_img" : "./img/navicat.png",
             "project_name" : "Navicat 17 Remove Trial",
             "project_about": "Script powershell to bypass time trial of navicat application using batchfile",
-            "project_tool" : "Powershell, Vscodem",
+            "project_tool" : "Powershell, Vscode",
             "project_link" : "https://github.com/rafliiar17/NAVICAT17-REMOVE-TRIAL"
         }
     ]

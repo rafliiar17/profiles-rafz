@@ -2,55 +2,55 @@
   "skills": [
     {
       "name": "HelpDesk Support",
-      "logo": "./img/helpdesk.jpg",
+      "logo": "./img/support.svg",
       "tools": "Navicat, Whatsapp, Redmine",
       "description": "Handling customer complaints, resolving technical issues, and collecting customer feedback."
     },
     {
       "name": "Technical Support",
-      "logo": "./img/techsupp.png",
+      "logo": "./img/techsupp.svg",
       "tools": "Remote Desktop, TeamViewer, Redmine",
       "description": "Providing technical assistance and troubleshooting for system issues."
     },
     {
       "name": "Data Entry",
-      "logo": "./img/dataentry.webp",
+      "logo": "./img/dataentry.svg",
       "tools": "Microsoft Excel, Google Sheets, Navicat",
       "description": "Accurately inputting data into databases and maintaining records."
     },
     {
-      "name": "MariaDB/Mysql",
-      "logo": "./img/mariadb.svg",
+      "name": "DBMS : MariaDB/Mysql/MongoDB",
+      "logo": "./img/db.svg",
       "tools": "PhpMyAdmin, Navicat, CLI",
       "description": "Managing and maintaining MySQL/MariaDB databases for various applications."
     },
     {
-      "name": "Apache/Nginx/Caddy",
-      "logo": "./img/webserver.jpg",
+      "name": "Web Server : Apache/Nginx/Caddy",
+      "logo": "./img/server.svg",
       "tools": "Apache, Nginx, Caddy",
       "description": "Configuring and optimizing web servers for high performance and security."
     },
     {
-      "name": "Ubuntu/Centos",
-      "logo": "./img/centos-logo-light.png",
+      "name": "OS : Ubuntu/Centos/Arch/Debian/Redhat",
+      "logo": "./img/arch.svg",
       "tools": "Termius, VMware",
       "description": "Administering and configuring servers on Ubuntu and CentOS."
     },
     {
       "name": "Prometheus/Grafana",
-      "logo": "./img/grafana_logo_icon_171048.png",
+      "logo": "./img/grafana.svg",
       "tools": "Prometheus, Grafana, Node Exporter",
       "description": "Monitoring system performance and visualizing data with Prometheus and Grafana."
     },
     {
       "name": "VMWare",
-      "logo": "./img/vmware-png-logo-6471.png",
+      "logo": "./img/vmware.svg",
       "tools": "VMware Workstation",
       "description": "Managing virtual machines and infrastructure using VMware tools."
     },
     {
       "name": "Docker",
-      "logo": "./img/docker-logo-blue.png",
+      "logo": "./img/docker.svg",
       "tools": "Docker, Docker Compose",
       "description": "Containerizing applications and managing containers with Docker."
     },
@@ -62,13 +62,13 @@
     },
     {
       "name": "ShellScripting",
-      "logo": "./img/bash-1.svg",
+      "logo": "./img/bash.svg",
       "tools": "Bash, nano, Vscode",
       "description": "Writing and automating tasks using shell scripts."
     },
     {
       "name": "Python",
-      "logo": "./img/python-5.svg",
+      "logo": "./img/python.svg",
       "tools": "Python, Vscode",
       "description": "Developing applications and scripts using Python."
     }
